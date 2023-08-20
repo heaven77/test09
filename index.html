@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@_Kayeque_</title>
+    <style>
+      * {
+        text-decoration: none;
+      }
+      body {
+        background-color: black;
+        height: 480px;
+        width: 320px;
+      }
+
+      .container {
+        display: grid;
+      }
+
+      h2 {
+        position: absolute;
+        top: 320px;
+        left: 50px;
+        color: white;
+        font-size: 35px;
+        -webkit-animation: float 6s ease-in-out infinite;
+        animation: float 6s ease-in-out infinite;
+        -webkit-box-reflect: below -80px linear-gradient(transparent, transparent, #0004);
+      }
+
+      img {
+        border-radius: 50%;
+        position: absolute;
+        top: -110px;
+        left: -110px;
+        width: 180px;
+        height: 180px;
+        margin: 180px;
+        overflow: hidden;
+      }
+
+      @-webkit-keyframes float {
+        0% {
+          box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+          transform: translatey(0px);
+        }
+        50% {
+          box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+          transform: translatey(-20px);
+        }
+        100% {
+          box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+          transform: translatey(0px);
+        }
+      }
+
+      @keyframes float {
+        0% {
+          box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+          transform: translatey(0px);
+        }
+        50% {
+          box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+          transform: translatey(-20px);
+        }
+        100% {
+          box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+          transform: translatey(0px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item-1">
+        <a href="aboutme.html">
+          <img src="avatar.PNG" />
+          <h2>@_Kayeque_</h2>
+        </a>
+      </div>
+    </div>
+    ß
+  </body>
+</html>
